@@ -9,8 +9,9 @@
 .header {
   background-color: #000;
   padding: 8px 0px 8px 0px;
-  height: 92px;
+  height: auto;
   display: flex;
+  width: 100%;
 }
 
 .navigation {
@@ -27,6 +28,7 @@
 
 .logo img {
   width: 165px;
+  margin-left: 20px;
   height: 75px;
 }
 
@@ -38,16 +40,14 @@
 .navbar ul li {
   list-style-type: none;
   display: inline-block;
-  font-weight: 400;
-  font-size: 16px;
-  letter-spacing: 10px;
 }
 
-.navbar,
-a {
+.navbar a {
   text-decoration: none;
   color: #fff;
-  padding: 35px 36px 0px 0px;
+  padding: 17px 36px 0px 0px; 
+  display: flex;
+  justify-content: baseline;
   font-weight: 400;
   font-size: 16px;
   font-family: Verdana;
@@ -55,7 +55,13 @@ a {
 }
 
 .navbar {
-  padding-right: 0px;
+  padding: 0;
+
+}
+
+.navbar ul {
+  padding: 0%;
+  margin: 0px;
 }
 
 .buttons button {
@@ -71,6 +77,10 @@ a {
   font-size: 14px;
   font-weight: 400;
   padding: 0px;
+  width: 100%;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
 }
 
 button.order-btn {
@@ -106,11 +116,13 @@ button.order-btn {
     margin-right: 10px;
   }
 }
+
 @media screen and (max-width:991px) {
-  .buttons button{
+  .buttons button {
     padding: 6.5px 16px;
   }
-  .arrow i{
+
+  .arrow i {
     margin-left: 0px;
   }
 }
@@ -120,7 +132,6 @@ button.order-btn {
     display: none;
   }
 }
-
 
 @media screen and (max-width:990px) {
   .web_banner {
@@ -186,7 +197,6 @@ button.order-btn {
   text-align: center;
   margin-left: -15px;
   position: relative;
-  overflow: hidden;
 }
 
 .product-list {
@@ -220,7 +230,7 @@ button.order-btn {
 
 .product_brand_list ul .slick-track {
   justify-content: center;
-
+overflow: hidden;
   text-align: center;
   display: flex;
 }
@@ -244,6 +254,8 @@ button.order-btn {
 
 .product-btn {
   padding: 0%;
+  text-decoration: none;
+  color: #fff;
 }
 
 .product_brand_list ul li {
@@ -278,7 +290,7 @@ button.order-btn {
 
 }
 
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
   .product_brand_main {
     display: flex;
     flex-direction: column;
@@ -299,13 +311,7 @@ button.order-btn {
   .product_brand_list ul {
     margin: 0px -10px;
   }
-}
-
-@media (max-width: 768px) {
-  .slick-list.draggable {
-    padding: 0 13% 0 13%;
-  }
-}
+} */
 
 
 /* Franchises section */
@@ -316,12 +322,6 @@ button.order-btn {
   padding: 70px;
   background-color: #0f0f0f;
   display: flex;
-}
-
-.container {
-  max-width: 1346px;
-  padding-left: 12px;
-  padding-right: 12px;
 }
 
 .cutsom-row-pdb {
@@ -441,13 +441,16 @@ button.order-btn {
 }
 
 .get-btn a {
-  padding: 10px;
+  padding: 0px;
+  text-decoration: none;
+  color: #fff;
 }
 
 .arrow-second i {
   background-color: #fff;
   color: red;
   border-radius: 23px;
+  font-size: 18px;
   padding: 6px 7px;
   margin-left: 7px;
 }
@@ -472,11 +475,8 @@ button.order-btn {
 
   .get-btn {
     margin-top: 20px;
-    margin-bottom: 30px;
   }
 }
-
-
 
 /* Second Section Franchises*/
 
@@ -499,17 +499,12 @@ button.order-btn {
   z-index: -1;
 }
 
-.col-log-4 {
-  width: 440px;
-  padding-left: 12px;
-  padding-right: 12px;
-  text-align: center;
-}
+
+
 
 .new-card-box {
   text-align: center;
   margin-bottom: 32px;
-  height: 510px;
 }
 
 .new-card-box img {
@@ -549,28 +544,26 @@ button.order-btn {
 }
 
 .new-card-box p {
-  color: rgba(255, 255, 255, 0.7);
+  color: #fff;
+  text-decoration: none;
   font-size: 14px;
   line-height: 17px;
   height: 36px;
   font-weight: 400;
-  letter-spacing: 1px;
   text-align: center;
   font-style: normal;
   margin-bottom: 12px;
+  overflow: hidden;
 }
 
-.new-card-box p a {
-  color: rgba(255, 255, 255, 0.7);
+.new-card-box a {
+  color: #fff;
   font-size: 14px;
   line-height: 17px;
-  height: 36px;
   font-weight: 400;
-  letter-spacing: 1px;
   text-align: center;
-  padding-left: 35px;
   font-style: normal;
-  margin-bottom: 12px;
+  padding: 0px;
 }
 
 .promotion-section {
@@ -597,10 +590,17 @@ button.order-btn {
   transition: all 0.3s;
 }
 
+@media screen and (max-width: 768px) {
+  .new-card-box- {
+    margin-bottom: 0px !important;
+  }
+}
+
 .franchises-express-section {
   background-color: #000000;
   padding-top: 60px;
 }
+
 
 .franchises-express-section .row {
   row-gap: 20px;
@@ -624,7 +624,6 @@ button.order-btn {
   text-align: center;
   padding: 25px 24px;
   margin: auto;
-  margin-bottom: 32px;
 }
 
 .location-card-box img {
@@ -659,51 +658,6 @@ button.order-btn {
   font-weight: bold;
 }
 
-/* Insta-Section */
-
-.insta-custum-section-main {
-  display: block;
-  width: 100%;
-  position: relative;
-  z-index: 1;
-  padding-bottom: 60px;
-  background-color: #000;
-}
-
-.insta-feed-heading {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 32px;
-}
-
-.insta-feed-heading h3 {
-  margin-top: 30px;
-  margin-bottom: 0px;
-  padding-bottom: 0px;
-  font-family: "Butler";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 50px;
-}
-
-.item img {
-  height: px;
-}
-
-.insta-custum-section-main {
-  display: block;
-  align-items: center;
-  width: 100%;
-  justify-content: center;
-  padding: 0px;
-}
-
-.item img {
-  width: 297px
-}
-
-
 /* Footer-Section */
 
 .footer-section {
@@ -727,7 +681,7 @@ button.order-btn {
   grid-template-rows: auto;
   position: relative;
   z-index: 1;
-  padding-bottom: 55px;
+  padding-bottom: 50px;
 }
 
 .footer-data-one {
@@ -782,6 +736,7 @@ ul.info-links li a {
   font-size: 15px;
   line-height: 20px;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 .footer-data-two {
@@ -867,6 +822,7 @@ ul.info-links li a {
   letter-spacing: 0.03em;
   color: #b9b2a8;
   padding: 0px;
+  text-decoration: none;
 }
 
 .social-links {
@@ -907,9 +863,29 @@ ul.info-links li a {
   margin-bottom: 13px;
 }
 
+.google-links a {
+  padding: 0 !important;
+}
+
 
 @media screen and (max-width: 540px) {
 
+  .footer-box-heading.active:after {
+    content: '\2212';
+    color: #ffffff;
+    font-family: 'revicons';
+    font-size: 26px;
+    position: absolute;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    top: 0px;
+    right: 0px;
+  }
+}
+
+@media screen and (max-width: 540px) {
   .footer-box-heading.accordion:after {
     content: '\002B';
     color: #ffffff;
@@ -925,9 +901,15 @@ ul.info-links li a {
   }
 }
 
-.panal {
-  display: none;
+@media screen and (max-width: 540px) {
+  .panel {
+    display: none !important;
+    overflow: hidden;
+    transition: 0.5s ease-out;
+    text-align: left;
+  }
 }
+
 
 @media screen and (min-width: 540px) {
   .panal {
@@ -945,25 +927,23 @@ ul.info-links li a {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 785px) {
   .footer-data-box {
-    grid-template-columns: 1.1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: ". .";
   }
+
+  .hide-responsive {
+    display: none !important;
+  }
 }
+
 
 @media screen and (max-width: 540px) {
   .footer-data-box {
     grid-template-columns: 1fr;
     grid-template-areas: ".";
     gap: 22px 0px;
-  }
-}
-
-@media screen and (min-width: 540px) {
-  .mid-content.panel {
-    display: block !important;
-
   }
 }
 
@@ -1003,12 +983,6 @@ ul.info-links li a {
 }
 
 @media screen and (max-width: 768px) {
-  .hide-responsive {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 768px) {
   .footer-socail-links {
     justify-content: center;
     margin-bottom: 10px !important;
@@ -1021,8 +995,46 @@ ul.info-links li a {
   }
 }
 
+@media screen and (max-width: 785px) {
+  .resp-only-show {
+    display: block !important;
+  }
 
+  .mid-content a {
+    padding: 0;
+  }
 
+  .google-links ul li {
+    display: inline;
+  }
+}
+
+@media screen and (max-width: 785px) {
+  .social-links {
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .social-links {
+    margin-bottom: 10px !important;
+  }
+
+  .google-links {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .detail-box-contect-list {
+    padding-top: 15px !important;
+  }
+
+  .footer-contect-list {
+    padding-top: 15px !important;
+  }
+}
+
+/* second-footer */
 
 
 footer {
@@ -1040,6 +1052,8 @@ footer {
 .footer_copyright a {
   margin: 0%;
   padding: 0%;
+  color: #fff;
+  text-decoration: none;
 }
 
 .footer_copyright span {

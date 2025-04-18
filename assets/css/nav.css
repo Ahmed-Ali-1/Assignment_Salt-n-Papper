@@ -1,0 +1,174 @@
+@media screen and (max-width: 991px){
+.display{
+   display: block !important;
+}
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 991px) {
+    .navbar {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 991px) {
+    .navbar {
+        display: flex !important;
+    }
+
+    .logo img {
+        width: 83px;
+        height: 37px;
+    }
+
+    button.order-btn {
+
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .buttons a {
+        font-size: 12px;
+        margin: -4px 0px; 
+    }
+}
+@media screen and (max-width:991px) {
+    .btn-primary{
+        display: block !important;
+    }
+    button.order-btn{
+        margin-right: 8px !important;
+    }
+}
+
+.offcanvas-body{
+
+    padding: 60px 0;
+}
+.offcanvas{
+    width: 15% !important;
+}
+.list-components{
+    margin: 0 !important;
+    padding: 0;
+}
+.border-slider {
+    border-bottom: 1px solid #cfcfcf;
+    list-style: none;
+    margin: 0px 10px;
+}
+.border-slider > a{
+    display: block;
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 8px 10px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .main-custom-heading>h2 {
+        font-size: 24px !important;
+        line-height: 29px !important;
+        margin-bottom: 16px !important;
+        line-height: 30px !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    .main-custom-heading small {
+        font-size: 16px !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    .main-custom-heading span {
+        font-size: 24px !important;
+        line-height: 30px !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    .main-custom-heading p {
+        font-size: 14px !important;
+        line-height: 17px !important;
+        margin-bottom: 14px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .product-brand {
+        padding: 32px 15px 0px 15px !important;
+        padding-bottom: 32px !important;
+        margin-bottom: 0px !important;
+    }
+}
+@media screen and (max-width: 1250px) {
+    .right-side-one img {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .right-side-one img {
+        width: 110px !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    .franchise-address h3 {
+        font-size: 22px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .franchise-address span {
+        margin-bottom: 16px !important;
+        font-size: 24px !important;
+        line-height: 30px !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    .franchises-express-section{
+        padding: 32px 0px 32px !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    .Franchises {
+        padding: 32px 0px !important;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .location-card-box {
+        width: 100% !important;
+        height: unset !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .location-card-box {
+        width: auto !important;
+        height: 230px !important;
+        padding: 25px 15px !important;
+        margin-bottom: 0px !important;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .location-card-box {
+        width: auto !important;
+        height: 275px !important;
+        padding: 25px 15px !important;
+    }
+}
+@media screen and (max-width:768px) {
+    .marg{
+        margin-bottom: 30px !important;
+    }
+    
+}
+

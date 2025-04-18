@@ -1,0 +1,40 @@
+.insta-custum-section-main {
+  display: block;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 60px;
+  background-color: #000;
+}
+
+.insta-feed-heading {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 32px;
+}
+
+.insta-feed-heading h3 {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  font-family: "Butler";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 50px;
+}
+.insta-custom-section .insta-custom-box figure img{
+  height: auto;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
+@media screen and (max-width:1024px) {
+  
+  .owl-item{
+      display: block;
+      align-items: center;
+      width: 100%;
+      justify-content: center;
+      padding: 0px;
+  }
+}
