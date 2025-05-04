@@ -38,3 +38,9 @@
       padding: 0px;
   }
 }
+
+@media screen and (max-width:1000px){
+  .insta-custum-section-main{
+    padding: 0px !important;
+  }
+}

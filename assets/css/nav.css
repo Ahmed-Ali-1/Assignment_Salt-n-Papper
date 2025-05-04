@@ -47,7 +47,7 @@
     padding: 60px 0;
 }
 .offcanvas{
-    width: 15% !important;
+    width: 50% !important;
 }
 .list-components{
     margin: 0 !important;
@@ -171,4 +171,5 @@
     }
     
 }
+
 
