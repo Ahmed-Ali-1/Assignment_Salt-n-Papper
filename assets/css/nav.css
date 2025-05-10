@@ -13,7 +13,7 @@
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 991px) {
+@media screen and (min-width: 300px) and (max-width: 991px) {
     .navbar {
         display: flex !important;
     }
