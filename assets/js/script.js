@@ -6,17 +6,17 @@ $(".insta-custom-section").owlCarousel({
   nav: false,
   dots: false,
   center: true,
-  responsive: {
+ responsive: {
     0: {
-      items: 2,
+      items: 1.4,
     },
-    400: {
-      items: 3.5,
+    500: {
+      items: 2.5,
     },
     750: {
       items: 4,
     },
-    1000: {
+    1400:{
       items: 5,
     },
   },
