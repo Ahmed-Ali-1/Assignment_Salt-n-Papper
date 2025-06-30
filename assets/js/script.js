@@ -28,7 +28,7 @@ $(".display_resp_show").owlCarousel({
   nav: false,
   dots: false,
   center: true,
-  
+
   responsive: {
     0: {
       items: 1.4,
@@ -39,6 +39,5 @@ $(".display_resp_show").owlCarousel({
     750: {
       items: 3.5,
     },
-   
   },
 });

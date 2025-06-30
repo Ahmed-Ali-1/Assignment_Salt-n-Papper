@@ -1,7 +1,7 @@
-@media screen and (max-width: 991px){
-.display{
-   display: block !important;
-}
+@media screen and (max-width: 991px) {
+    .display {
+        display: block !important;
+    }
 }
 
 
@@ -28,37 +28,44 @@
         padding-left: 8px;
         padding-right: 8px;
     }
+
     .buttons a {
         font-size: 12px;
-        margin: -4px 0px; 
+        margin: -4px 0px;
     }
 }
+
 @media screen and (max-width:991px) {
-    .btn-primary{
+    .btn-primary {
         display: block !important;
     }
-    button.order-btn{
+
+    button.order-btn {
         margin-right: 8px !important;
     }
 }
 
-.offcanvas-body{
+.offcanvas-body {
 
     padding: 60px 0;
 }
-.offcanvas{
+
+.offcanvas {
     width: 50% !important;
 }
-.list-components{
+
+.list-components {
     margin: 0 !important;
     padding: 0;
 }
+
 .border-slider {
     border-bottom: 1px solid #cfcfcf;
     list-style: none;
     margin: 0px 10px;
 }
-.border-slider > a{
+
+.border-slider>a {
     display: block;
     color: #000;
     text-decoration: none;
@@ -81,17 +88,20 @@
         line-height: 30px !important;
     }
 }
+
 @media screen and (max-width: 768px) {
     .main-custom-heading small {
         font-size: 16px !important;
     }
 }
+
 @media screen and (max-width: 768px) {
     .main-custom-heading span {
         font-size: 24px !important;
         line-height: 30px !important;
     }
 }
+
 @media screen and (max-width: 768px) {
     .main-custom-heading p {
         font-size: 14px !important;
@@ -107,16 +117,19 @@
         margin-bottom: 0px !important;
     }
 }
+
 @media screen and (max-width: 1250px) {
     .right-side-one img {
         width: 70%;
     }
 }
+
 @media screen and (max-width: 768px) {
     .right-side-one img {
         width: 110px !important;
     }
 }
+
 @media screen and (max-width: 768px) {
     .franchise-address h3 {
         font-size: 22px !important;
@@ -130,11 +143,13 @@
         line-height: 30px !important;
     }
 }
+
 @media screen and (max-width: 768px) {
-    .franchises-express-section{
+    .franchises-express-section {
         padding: 32px 0px 32px !important;
     }
 }
+
 @media screen and (max-width: 768px) {
     .Franchises {
         padding: 32px 0px !important;
@@ -165,11 +180,10 @@
         padding: 25px 15px !important;
     }
 }
+
 @media screen and (max-width:768px) {
-    .marg{
+    .marg {
         margin-bottom: 30px !important;
     }
-    
+
 }
-
-
