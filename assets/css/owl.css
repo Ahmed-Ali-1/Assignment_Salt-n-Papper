@@ -46,14 +46,3 @@
     padding: 0px !important;
   }
 }
-
-.owl-prev,
-.owl-next {
-  color: #fff !important;
-  
-}
-.owl-theme .owl-nav [class*=owl-]:hover {
-    background: transparent !important;
-    color: #FFF;
-    text-decoration: none;
-}
